@@ -275,9 +275,13 @@ def redact_document(document_id: int, db: Session = Depends(get_db)):
         ok, message = redact_txt_or_docx(source, target, values)
 
     if not ok:
-        raise HTTPException(status_code=500, detail=message)
+        raise HTTPException(status_code=500, detail="Redaction failed. Please verify selected findings and file format.")
 
-    return {"message": message, "export_path": str(target), "download_url": f"/privacy/export/{target.name}"}
+    return {
+        "message": "Redaction complete and verification passed.",
+        "export_path": str(target),
+        "download_url": f"/privacy/export/{target.name}",
+    }
 
 
 @app.get("/privacy/export/{filename}")

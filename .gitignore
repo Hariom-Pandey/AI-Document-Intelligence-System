@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+backend/venv/
+.pytest_cache/
+*.sqlite3
+*.db
+
+# Data & Indexes (Private & dev only)
+data/uploads/*
+!data/uploads/.gitkeep
+data/indexes/*
+!data/indexes/.gitkeep
+data/redacted/*
+!data/redacted/.gitkeep
+
+# Node / React
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Environment variables
+.env
+backend/.env
+
+# OS
+.DS_Store
+Thumbs.db
+

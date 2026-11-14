@@ -1,0 +1,23 @@
+{
+  "name": "ai-document-intelligence-system",
+  "version": "1.0.0",
+  "description": "AI Document Intelligence System - Production RAG and Analysis Platform",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "start": "node scripts/dev.js",
+    "build": "npm --prefix frontend run build",
+    "test": "pytest backend/tests"
+  },
+  "keywords": [
+    "ai",
+    "document-intelligence",
+    "rag",
+    "fastapi",
+    "react",
+    "vite"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+

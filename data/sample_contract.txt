@@ -1,0 +1,35 @@
+MUTUAL NON-DISCLOSURE AGREEMENT
+
+This Mutual Non-Disclosure Agreement ("Agreement") is entered into on October 24, 2026 ("Effective Date"), by and between Apex Dynamics Inc., a Delaware corporation with its principal place of business at 500 Silicon Vista Boulevard, San Jose, California ("Disclosing Party"), and Nexus Technologies LLC, an Ohio limited liability company located at 1200 Innovation Way, Columbus, Ohio ("Receiving Party").
+
+1. Purpose
+The parties wish to explore a potential business relationship concerning collaborative artificial intelligence document processing, neural search, and enterprise automation software systems (the "Purpose"). In connection with this Purpose, the parties may disclose Confidential Information to each other.
+
+2. Definition of Confidential Information
+"Confidential Information" means any proprietary data, trade secrets, software source code, system architectures, database schemas, patent applications, financial models, pricing structures, customer lists, and business forecasts disclosed by either party, whether orally or in writing, that is designated as confidential or would reasonably be understood to be confidential given the nature of the information.
+
+3. Obligations and Standard of Care
+The Receiving Party agrees to protect the Confidential Information using at least the same degree of care it uses to protect its own sensitive trade secrets, but in no event less than a reasonable standard of care. The Receiving Party shall not disclose, copy, publish, or reverse-engineer any Confidential Information to third parties without prior written consent from the Disclosing Party.
+
+4. Exclusions from Confidentiality
+Confidential Information does not include information that: (a) is or becomes publicly available through no breach of this Agreement; (b) was already known to the Receiving Party prior to disclosure as evidenced by written records; (c) is rightfully received from a third party without duty of confidentiality; or (d) is independently developed by employees who had no access to the Confidential Information.
+
+5. Term and Termination
+This Agreement and its confidentiality obligations shall remain in full force and effect for a duration of three (3) years from the Effective Date. Upon termination or written demand, the Receiving Party shall return or destroy all physical and digital copies of Confidential Information within ten (10) business days.
+
+6. Remedies and Liquidated Damages
+The parties acknowledge that unauthorized disclosure or misuse of Confidential Information will cause irreparable injury. Therefore, the Disclosing Party shall be entitled to seek injunctive relief, specific performance, and monetary damages in the amount of up to $500,000 for wilful violation.
+
+7. Governing Law and Dispute Resolution
+This Agreement shall be governed by and construed in accordance with the laws of the State of California, without regard to conflict of law principles. Any dispute arising out of this Agreement shall be settled by binding arbitration in San Francisco, California under the rules of the American Arbitration Association (AAA).
+
+IN WITNESS WHEREOF, the parties have executed this Mutual Non-Disclosure Agreement as of the Effective Date.
+
+Apex Dynamics Inc.
+By: Dr. Elena Rostova
+Title: Chief Technology Officer
+
+Nexus Technologies LLC
+By: Marcus Vance
+Title: Managing Director
+

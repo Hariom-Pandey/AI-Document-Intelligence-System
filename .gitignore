@@ -23,3 +23,21 @@ www-test/
 
 #old GWT (1.5) created this dir
 .gwt-tmp/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Backend runtime data
+backend/storage/*.db
+backend/storage/uploads/*
+backend/storage/exports/*
+
+# Frontend artifacts
+frontend/node_modules/
+frontend/dist/
+
+# Test cache
+.pytest_cache/
+backend/.pytest_cache/

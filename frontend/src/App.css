@@ -1,0 +1,37 @@
+:root {
+  font-family: Inter, system-ui, Arial, sans-serif;
+  color: #dce9ff;
+  background: #0b1220;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; background: #0b1220; }
+
+.layout { max-width: 1280px; margin: 0 auto; padding: 1rem; }
+header h1 { margin: 0.2rem 0; font-size: 1.5rem; }
+header p { margin-top: 0; color: #95a9cc; }
+.toolbar { display: flex; gap: 0.8rem; align-items: center; flex-wrap: wrap; }
+.upload { background: #2563eb; padding: 0.5rem 0.8rem; border-radius: 8px; cursor: pointer; font-weight: 600; }
+.upload input { display: none; }
+.status { color: #9fc4ff; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin-top: 1rem; }
+.card { background: #121b2d; border: 1px solid #20304b; border-radius: 10px; padding: 0.9rem; }
+.card.wide { grid-column: span 2; }
+@media (max-width: 980px) { .card.wide { grid-column: span 1; } }
+
+.doc { display: block; width: 100%; text-align: left; margin: 0.35rem 0; padding: 0.5rem; border-radius: 8px; border: 1px solid #2f4364; background: #16233a; color: #dce9ff; }
+.doc.active { border-color: #60a5fa; }
+.doc small { display: block; color: #9eb2d4; }
+
+input, button {
+  width: 100%; margin: 0.2rem 0; padding: 0.5rem;
+  border-radius: 7px; border: 1px solid #2a3f5f; background: #0f1727; color: #e5edff;
+}
+button { cursor: pointer; }
+.row { display: flex; gap: 0.4rem; align-items: center; flex-wrap: wrap; }
+.active-btn { border-color: #4ade80; }
+
+.result { margin-top: 0.6rem; border-top: 1px solid #23385b; padding-top: 0.6rem; }
+.chips { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+.chips span, .chips label { background: #1b2b45; border: 1px solid #324f79; padding: 0.2rem 0.45rem; border-radius: 999px; }

@@ -7,16 +7,16 @@ from typing import List, Union
 os.environ.setdefault("HF_HUB_OFFLINE", "1")
 os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
 
-from sentence_transformers import SentenceTransformer
 from app.core.config import settings
 
 logger = logging.getLogger(__name__)
 
 _embedding_model = None
 
-def get_embedding_model() -> SentenceTransformer:
+def get_embedding_model():
     global _embedding_model
     if _embedding_model is None:
+        from sentence_transformers import SentenceTransformer
         logger.info(f"Loading SentenceTransformer model: {settings.EMBEDDING_MODEL_NAME}...")
         try:
             _embedding_model = SentenceTransformer(settings.EMBEDDING_MODEL_NAME, local_files_only=True)

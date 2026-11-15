@@ -8,7 +8,8 @@ import numpy as np
 os.environ.setdefault("KMP_DUPLICATE_LIB_OK", "TRUE")
 
 try:
-    import torch  # Preload OpenMP runtime DLL for Windows
+    if os.name == "nt":
+        import torch  # Preload OpenMP runtime DLL for Windows
 except ImportError:
     pass
 
